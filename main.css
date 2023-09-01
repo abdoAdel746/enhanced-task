@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    background: #eee;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.item {
+    text-align: center;
+    color: white;
+    width: 30%;
+    height: auto;
+    font-size: 37px;
+    padding: 20px;
+    border-radius: 9px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow-wrap: anywhere;
+    /* font-size: 168%; */
+    overflow: hidden;
+}
+
+.item span {
+    margin-left: 10px;
+}
+
+.item:nth-of-type(1) {
+    background-color: #362f2f;
+    cursor: pointer;
+}
+
+.item:nth-of-type(1) span {
+    color: white;
+}
+
+.item:nth-of-type(2) {
+    background-color: #cf5b5b;
+}
+
+.item:nth-of-type(2) span {
+    color: white;
+}
+
+.item:nth-of-type(3) {
+    background-color: #9b0000;
+}
+
+.item:nth-of-type(3) span {
+    color: white;
+}
+
+.item:nth-of-type(4) {
+    background-color: #ffffff;
+    color: black;
+}
+
+.item:nth-of-type(4) span {
+    /* color: black; */
+}
+
+.item:nth-of-type(5) {
+    background-color: #c19fff;
+    color: black;
+}
+
+.item:nth-of-type(5) span {
+    /* color: white; */
+}
+
+.item:nth-of-type(6) {
+    color: black;
+    background: #db7730;
+}
+
+.item:nth-of-type(6) span {
+    /* color: white; */
+}
+
+.item:nth-of-type(7) {
+    background-color: #2583cd;
+    color: antiquewhite;
+}
+
+.item:nth-of-type(7) span {
+    /* color: white; */
+}
+
+.item:nth-of-type(8) {
+    background-color: #905b4af0;
+    color: antiquewhite;
+}
+
+.item:nth-of-type(8) span {
+    /* color: white; */
+}
+
+.item:nth-of-type(9) {
+    background-color: #607D8B;
+    color: antiquewhite;
+}
+
+.item:nth-of-type(9) span {
+    /* color: white; */
+}
+
+.item:nth-of-type(10) {
+    background-color: #ffcab7;
+    color: #00BCD4;
+}
+
+.item:nth-of-type(10) span {
+    /* color: white; */
+}
+
+.item:nth-of-type(11) {
+    background-color: #555745;
+    color: #00BCD4;
+}
+
+.item:nth-of-type(11) span {
+    /* color: white; */
+}
+
+.item:nth-of-type(12) {
+    background-color: #FFEB3B;
+    color: #00BCD4;
+}
+
+.item:nth-of-type(12) span {
+    /* color: white; */
+}
+
+#btn {
+
+    background: #362f2f;
+    width: fit-content;
+    padding: 19px;
+    border-radius: 6px;
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+    cursor: pointer;
+}
+#code{
+    display: none;
+    background-color: #0d0f10;
+    color: white;
+    width: 600px;
+    white-space: pre;
+    font-family: monospace;
+    padding: 32px;
+    padding-bottom: 65px;
+    position: relative;
+    margin: 20px auto;
+}
+#close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 17px;
+    width: 34px;
+    text-align: center;
+    background: white;
+    border-radius: 3px;
+    padding: 6px;
+    cursor: pointer;
+    color: red;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+button{
+    border: none;
+}
+.var{
+    color: #eb5b5b;
+}
+.funcName{
+    color: bisque;
+}
+.varName{
+    color: #92e092;
+}
+.value{
+    color: #d685e4;
+}
+.bool{
+    color: #eebc72;
+}
+.param{
+    color: #50aef9;
+}
+.iterator,.func{
+    color: #c19fff;
+}
+.prop,.class{
+    color: #ffdada;
+}
+.propName,.str{
+    color: #cacaca;
+}
+.comment{
+    color: gray;
+}
